@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: 01_Service_reg
+server:
+  port: 8761
+
+#dont want to aplication acting as client not server
+eureka:
+  client:
+    register-with-eureka: false
+#not this micro service act as server

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: 02_Admin_Ser
+server:
+  port: 1111   #any port number
